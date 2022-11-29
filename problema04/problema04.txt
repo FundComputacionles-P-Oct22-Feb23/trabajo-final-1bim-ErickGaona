@@ -1,0 +1,33 @@
+1. inicio
+2. introducir primer numero 
+3. introducir segundo numero
+4. introducir tercer numero
+5. comparar si numero1 es mayor a numero 2
+6. comparar si numero1 es mayor a numero 3
+7. comparar si numero2 es mayor a numero 3
+8. presentar el numero mayor
+9. fin 
+
+-MINIESPECIFICACION-
+1. Inicio
+2. num1 ,i[0-n]
+3. num2 ,i[0-n]
+4. num3 ,i[0-n]
+5. << ingrese el primer numero
+6. >> num1
+7. << ingrese el segundo numero
+8. >> num2
+9. << ingrese el tercer numero
+10. >> num3
+11. Si (num1 > num2)entonces
+12. 	Si(num1 > num3)entonces
+13.      << "el mayor es:"+num1
+14. 	De lo contrario
+15.  	 <<"el mayor es:"+num3
+16. Si(num2 > num3)entonces
+17.   << "el mayor es:"+num2
+18. De lo contrario 
+19.   <<"el mayor es:"+num3
+20.     FinSi
+21. FinSi
+22. Fin

@@ -1,0 +1,45 @@
+1. inicio
+2. Se le pide que ingrese el nombre del empleado 
+3. Se le pide que ingrese el tipo de empleado
+4. Se le pide que ingrese el pago por cuota 
+5. Se le pide que ingrese el numero de horas trabajadas
+6. se realiza el proceso de numero de horas trabajadas * pago por horas 
+7. Si el empleado es tipo 1 se le pagan las horas extras que es igual a 1.5 de cuota por hora
+8. Si el empleado es tipo 2 se le pagan las horas extras que es igual a 2 de cuota por hora
+9. Si el empleado es tipo 3 se le pagan las horas extras que es igual a 2.5 de cuota por hora
+10. Si el empleado es tipo 4 se le pagan las horas extras que es igual a 3 de cuota por hora 
+11. se imprime en pantalla el sueldo por pagar
+12. Fin
+
+-MINIESPECIFICACION-
+1. Inicio
+2. nombre ,x(200)[{A-Z}, {a-z}, {BS}]
+3. tipo ,i[0-n]
+4. pago_cuota ,d[0-n]
+5. numero_horas ,d[0-n]
+6. extra, d[0-n]
+7. << "Ingrese el nombre del empleado"
+8. >> nombre
+9. << "Ingrese el tipo de empleado"
+10. >> tipo
+11. << "Ingrese el numero de horas trabajadas"
+12. >> numero_horas
+13. << "Ingrese la cuota que se le paga por hora"
+14. >> pago_cuota
+15.  extra =numero_horas * pago_cuota
+16. Si(tipo == 1)entonces
+17.   extra = extra * 1.5
+18. De lo contrario 
+19. 	Si(tipo == 2)entonces
+20.   	   extra = extra * 2
+21.     De lo contrario 
+22. 	   Si(tipo == 3)entonces  
+23. 	      extra = extra * 2.5
+24. 	   De lo contrario 
+25.	     Si(tipo == 4)entonces
+26. 	        extra = extra * 3
+27. 	   FinSi
+28.	FinSi
+29.  FinSi
+30. << "Sueldo por pagar es:" + extra
+31. Fin

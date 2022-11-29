@@ -1,0 +1,51 @@
+ALGORITMO
+1. Inicio
+2. Cuantos trajes desea adquirir
+3. Cual es el precio del traje (10$)
+4. Si compra 1 traje aplica descuento del 20%
+5. Si compra 2 trajes aplica descuento del 25%
+6. Si compra 3 trajes aplica descuento del 40%
+7. Si compra mas de 3 aplica descuento del 50%
+8. Calcular subtotal suma cantidad de trajes * precio
+9. Calcular el descuento subtotal * descuento / 100
+10. Presentar en pantalla el sub total
+11. Presentar en pantalla el total 
+12. Fin
+
+-MINIESPECIFICACION-
+1. Inicio
+2. cantidad_trajes ,i[0-n]
+3. precio_trajes ,d[0-n] <-- 100$
+4. descuento ,d[0-n] 
+5. subtotal ,d[0-n]
+6. total ,d[0-n]
+5. << "Ingrese cantidad de trajes"
+6. >> cantidad_trajes
+7. Si (cantidad_trajes = 1) entonces
+8.     precio_trajes = cantidad_trajes * precio	
+9.     descuento = precio_trajes * 20 /100
+10.    subtotal = precio_trajes
+11.    total = precio_trajes - descuento
+12.De lo contrario    
+13.	Si (cantidad_trajes = 2) entonces)	
+14.	    precio_trajes = cantidad_trajes * precio	
+15. 	    descuento = precio_trajes * 25 /100  
+16.  	    subtotal = precio_trajes     
+17.  	    total = precio_trajes - descuento
+18.	De lo contrario
+19.        Si (cantidad_trajes = 3) entonces)	
+20.	      precio_trajes = cantidad_trajes * precio	
+21. 	      descuento = precio_trajes * 40 /100  
+22.  	      subtotal = precio_trajes     
+23.  	      total = precio_trajes - descuento
+24.	   De lo contrario 
+25.           Si (cantidad_trajes > 3) entonces)	
+26.	    precio_trajes = cantidad_trajes * precio	
+27. 	    descuento = precio_trajes * 50 /100  
+28.  	    subtotal = precio_trajes     
+29.  	    total = precio_trajes - descuento
+30.           fin si
+31.        fin si
+32.      fin si
+33.fin si
+34.fin

@@ -1,0 +1,36 @@
+ALGORITMO
+1. Inicio
+2. Se le pide que ingrese al usuario ingresar angulo a
+3. Se le pide que ingrese al usuario ingresar angulo b
+4. Se le pide que ingrese al usuario ingresar angulo c
+5. Una vez ingresado los angulos se realiza el proceso de suma sea igual a 180 
+6. Si uno de sus angulos es igual a 90 grados el triangulo es rectangulo
+7. Si uno de sus angulos es menor a 90 grados el triangulo es acutangulo
+8. Si uno de sus angulos es mayor a 90 grados el triangulo es obtusangulo
+9. Presentar el tipo del triangulo
+10. Fin
+
+-MINIESPECIFICACION-
+1. Inicio
+2. a ,d[0-n]
+3. b ,d[0-n]
+4. c ,d[0-n]
+5. << Ingrese el primer angulo
+6. >> a
+7. << Ingrese el segundo angulo
+8. >> b
+9. << Ingrese el tercer angulo
+10. >> c
+11. Si(a + b + c == 180)entonces
+12.   Si(a = 90 || b = 90 || c= 90)entonces
+13.	<< "El triangulo es rectangulo" 
+14.   De lo contrario:
+15. 	  Si(a > 90 || b > 90 || c > 90)entonces
+15.	     << "El triangulo es rectangulo" 
+16.   De lo contrario
+17.	<< "El triangulo es acutangulo"
+18.  De lo contrario:
+19.	<< "No pertenece a un triangulo"
+20.     FinSi
+21.  Fin Si
+22. Fin

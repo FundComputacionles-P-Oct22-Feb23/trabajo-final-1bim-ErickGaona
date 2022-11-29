@@ -1,0 +1,20 @@
+-MINIESPECIFICACIONES-
+1. Inicio
+2. contador, i[-n, +n]
+3. num, i[-n, +n]
+4. par, i[-n, +n] <- 2
+5. << "Ingrese un numero par"
+6. >> num
+7. mientras(contador <= num)entonces  
+8.   si(num MOD==0)entonces  
+9.      mensaje = mensaje + " " + par + " "
+10.     contador= contador + 1
+11.     par =par +2 
+12.  de lo contrario  
+13.     << error no es numero par 
+14.     romper   
+15.   FinSi
+16.fin mientras    
+17.<< mensaje   
+18. Fin
+
