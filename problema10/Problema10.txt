@@ -1,0 +1,32 @@
+ALGORITMO
+
+1. Inicio
+2. mientras el usuario quiera se pide al usuario ingresar datos a calcular la media
+3. se guardan los datos y se suman
+4. se pregunta al usuario si desea salir
+5. si la opcion es si hace el calculo de la media
+6. presenta el calculo de la media
+7. fin
+
+Miniespecificacion
+
+1. Inicio
+2. bandera,l[true]
+3. dato,i[0-n]
+4. suma,d[0-n]
+5. mensaje,x(200)[{A-Z}{BS}{a-z}]<- ""
+6. contador,i[0-n]
+7. media, i[0-n]
+8. opcion,x(2)[{A-Z}{BS}{a-z}]<- s
+9. mientras bandera== true
+10. <<"Ingrese el dato a calcular"
+11. >> dato
+12. suma=suma+dato
+13. <<"Desea salir? digite s para salir"
+14. >> opcion
+15. contador= contador+1
+16. si (opcion.equals("s"))
+17.    bandera =false
+18.    media= suma/contador
+19.<<"presentar"+suma
+20.<<"presnetar"+media
