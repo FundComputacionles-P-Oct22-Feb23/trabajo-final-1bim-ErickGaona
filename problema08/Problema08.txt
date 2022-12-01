@@ -6,8 +6,8 @@
 5. pies ,d[0-n]
 6. pulgadas ,d[0-n]
 7. yardas ,d[0-n]
-8. mensaje, x(500)[{A-Z}{BS}{a-z}]   
-9. mensaje1, x(500)[{A-Z}{BS}{a-z}]
+8. mensaje, x(500)[{A-Z}{BS}{a-z}]   <- ""
+9. mensaje1, x(500)[{A-Z}{BS}{a-z}]<- "Metros\tYardas\tPulgadas\tPies\n"
 10.<< "Escriba una cantidad en metros"     
 11.>> metros     
 12. mientras (contador <= metros) entonces 
